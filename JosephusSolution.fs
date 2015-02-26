@@ -26,6 +26,6 @@ let main(args) =
   let count = (int32)args.[0]
   let step = (int32)args.[1]
 
-  printfn "The surviving position is: %i" (josephusR count step)
   printfn "The surviving position is: %i" (josephusTR count step)
+  printfn "The surviving position is: %i" (josephusR count step)
   0
